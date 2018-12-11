@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AD05C4B668D4E146ACAFC1C /* libPods-LRFriendCycyle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED19B37C11A7E1358C15BFF3 /* libPods-LRFriendCycyle.a */; };
 		AA36DBB521BFB49F008A2EC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA36DBB421BFB49F008A2EC5 /* AppDelegate.m */; };
 		AA36DBB821BFB49F008A2EC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA36DBB721BFB49F008A2EC5 /* ViewController.m */; };
 		AA36DBBB21BFB49F008A2EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA36DBB921BFB49F008A2EC5 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		503252F471ADFE0D5542BCAB /* Pods-LRFriendCycyle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRFriendCycyle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LRFriendCycyle/Pods-LRFriendCycyle.debug.xcconfig"; sourceTree = "<group>"; };
 		AA36DBB021BFB49F008A2EC5 /* LRFriendCycyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRFriendCycyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA36DBB321BFB49F008A2EC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA36DBB421BFB49F008A2EC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		AA36DBD321BFB4A0008A2EC5 /* LRFriendCycyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRFriendCycyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA36DBD721BFB4A0008A2EC5 /* LRFriendCycyleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRFriendCycyleUITests.m; sourceTree = "<group>"; };
 		AA36DBD921BFB4A0008A2EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED19B37C11A7E1358C15BFF3 /* libPods-LRFriendCycyle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LRFriendCycyle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54A3571B0B29BC5778D0419 /* Pods-LRFriendCycyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRFriendCycyle.release.xcconfig"; path = "Pods/Target Support Files/Pods-LRFriendCycyle/Pods-LRFriendCycyle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD05C4B668D4E146ACAFC1C /* libPods-LRFriendCycyle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D03441C0405C5FB94BD4C06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				503252F471ADFE0D5542BCAB /* Pods-LRFriendCycyle.debug.xcconfig */,
+				F54A3571B0B29BC5778D0419 /* Pods-LRFriendCycyle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		841B030F7D6429111B2E12B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED19B37C11A7E1358C15BFF3 /* libPods-LRFriendCycyle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA36DBA721BFB49F008A2EC5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				AA36DBCB21BFB4A0008A2EC5 /* LRFriendCycyleTests */,
 				AA36DBD621BFB4A0008A2EC5 /* LRFriendCycyleUITests */,
 				AA36DBB121BFB49F008A2EC5 /* Products */,
+				7D03441C0405C5FB94BD4C06 /* Pods */,
+				841B030F7D6429111B2E12B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA36DBDC21BFB4A0008A2EC5 /* Build configuration list for PBXNativeTarget "LRFriendCycyle" */;
 			buildPhases = (
+				41AB93FC2E50F1F1C04BF58A /* [CP] Check Pods Manifest.lock */,
 				AA36DBAC21BFB49F008A2EC5 /* Sources */,
 				AA36DBAD21BFB49F008A2EC5 /* Frameworks */,
 				AA36DBAE21BFB49F008A2EC5 /* Resources */,
@@ -259,6 +284,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41AB93FC2E50F1F1C04BF58A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LRFriendCycyle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA36DBAC21BFB49F008A2EC5 /* Sources */ = {
@@ -428,11 +474,13 @@
 		};
 		AA36DBDD21BFB4A0008A2EC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503252F471ADFE0D5542BCAB /* Pods-LRFriendCycyle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 962P348243;
 				INFOPLIST_FILE = LRFriendCycyle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LRfriendCycle.LRFriendCycyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +490,13 @@
 		};
 		AA36DBDE21BFB4A0008A2EC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54A3571B0B29BC5778D0419 /* Pods-LRFriendCycyle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 962P348243;
 				INFOPLIST_FILE = LRFriendCycyle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LRfriendCycle.LRFriendCycyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
